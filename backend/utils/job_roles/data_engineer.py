@@ -1,0 +1,33 @@
+DATA_ENGINEER = {
+    "required": [
+        "Python",
+        "SQL",
+        "PostgreSQL",
+        "MySQL",
+        "Linux",
+        "Git",
+        "Docker",
+        "Apache Spark",
+        "Hadoop",
+        "ETL",
+        "Data Warehousing",
+        "Data Pipelines",
+    ],
+
+    "optional": [
+        "Kafka",
+        "Airflow",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Snowflake",
+        "MongoDB",
+        "Redis",
+        "Kubernetes",
+        "Scala",
+        "Java",
+        "CI/CD",
+        "PySpark",
+        "Big Data",
+    ],
+}

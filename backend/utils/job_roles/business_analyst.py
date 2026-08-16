@@ -1,0 +1,30 @@
+BUSINESS_ANALYST = {
+    "required": [
+        "Excel",
+        "SQL",
+        "Data Analysis",
+        "Business Analysis",
+        "Requirements Gathering",
+        "Communication",
+        "Problem Solving",
+        "Power BI",
+        "Tableau",
+        "Documentation",
+    ],
+
+    "optional": [
+        "Python",
+        "Pandas",
+        "Statistics",
+        "JIRA",
+        "Confluence",
+        "Visio",
+        "Agile",
+        "Scrum",
+        "Stakeholder Management",
+        "Presentation",
+        "Git",
+        "PostgreSQL",
+        "MySQL",
+    ],
+}
