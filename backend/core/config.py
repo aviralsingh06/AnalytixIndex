@@ -16,7 +16,7 @@ class Settings(BaseSettings):
 
     # Keep this as a string because .env provides a string.
     # It will be converted to a list through the property below.
-    BACKEND_CORS_ORIGINS: str = "http://localhost:3000"
+    BACKEND_CORS_ORIGINS: str = "http://localhost:3000,https://analytixindex-web.onrender.com"
 
     model_config = SettingsConfigDict(
         env_file=".env",
