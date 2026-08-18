@@ -78,7 +78,7 @@ export default function ResumeUploader() {
       formData.append("user_id", "1");
 
       const response = await fetch(
-        "http://127.0.0.1:8000/api/v1/upload",
+        `${process.env.NEXT_PUBLIC_API_URL}/upload`,
         {
           method: "POST",
           body: formData,
